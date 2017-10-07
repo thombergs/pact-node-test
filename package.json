@@ -1,0 +1,14 @@
+{
+  "name": "pact-node-test",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env LOGLEVEL=DEBUG node start-mock-server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "@pact-foundation/pact-node": "~4.12",
+    "cross-env": "^5.0.5"
+  },
+  "devDependencies": {}
+}
